@@ -1,0 +1,19 @@
+Eclipse Kepler (4.3.1) SR1 x64
+EGit - http://download.eclipse.org/egit/updates
+
+C (MinGW 0.6.2 32)
+C++ (MinGW 0.6.2 32)
+C# (.NET 4.5)
+F# (.NET 4.5)
+Go - 1.2 amd64
+Lua - 5.1.4 x86 ?
+Ruby - 2.0.0 p353 x64
+Java - 7u51 x64
+Python - 3.3.4 amd64
+
+CDT - http://download.eclipse.org/tools/cdt/releases/kepler
+Visual Studio - http://go.microsoft.com/?linkid=9832270&clcid=0x416
+PyDev - http://pydev.org/updates
+RubyPeople - http://sourceforge.net/projects/rubyeclipse/
+GoClipse - http://goclipse.googlecode.com/svn/trunk/goclipse-update-site/
+Koneki - http://download.eclipse.org/koneki/releases/stable
