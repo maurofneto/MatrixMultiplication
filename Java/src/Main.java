@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * @author Mauro
  *
@@ -13,6 +11,7 @@ public class Main {
 					c = new double[N][N];
 		
 		int i, j, k;
+		long start, stop;
 		
 		for (i = 0; i < N; i++) {
 			for (j = 0; j < N; j++) {
@@ -22,6 +21,8 @@ public class Main {
 			}
 		}
 		
+		start = System.currentTimeMillis();
+		
 		for (i = 0; i < N; i++) {
 			for (j = 0; j < N; j++) {
 				for (k = 0; k < N; k++) {
@@ -30,8 +31,12 @@ public class Main {
 			}
 		}
 		
+		stop = System.currentTimeMillis();
+		
+		System.out.println((stop - start) + " ms.\n\n");
+		
 //		for (i = 0; i < N; i++) {
-//			System.out.println(Arrays.toString(c));
+//			System.out.println(Arrays.toString(c[i]));
 //		}
 	}
 }
