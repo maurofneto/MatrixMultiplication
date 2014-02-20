@@ -15,7 +15,7 @@ N.times {|i|
 }
 
 stopTime = Time.now
-puts ((stopTime - startTime) * 1000).to_s + " ms. "
+puts ((stopTime - startTime) * 1000).to_s + " ms.\n\n"
 
 # Otimização em granularidade fina
 
